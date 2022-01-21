@@ -1,0 +1,1520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Evaluation</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="top-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="top-bar">
+                                <ul>
+                                    <li>
+                                        <a href="#"><i class="fas fa-phone-alt"></i><span>+34 331 44 21 211</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="far fa-envelope"></i> <span>Contact Us</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="botom-header">
+                <div class="container position-relative">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="logo-container">
+                                <strong class="logo">
+                                    <a href="#HOME">
+                                        <img src="images/logo.png" alt="logo">
+                                    </a>
+                                </strong>
+                            </div>
+                        </div>
+                        <div class="col-9">
+                            <nav class="navbar navbar-expand-lg navbar-light">
+                                <div class="container-fluid">
+                                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                    <div class="navbar-collapse flex-row justify-content-end collapse show" id="navbarNavDropdown">
+                                        <ul class="navbar-nav">
+                                            <li class="nav-item" role="presentation" >
+                                                <a class="nav-link" href="#index.php" id="active">Home</a>
+                                            </li>
+                                            <li class="nav-item" role="presentation">
+                                                <a class="nav-link"  href="#browser">Browser Tasks </a> 
+                                            </li>
+                                            <li class="nav-item" role="presentation">
+                                                <a class="nav-link" href="#Howitwork">How it Works</a>
+                                            </li>
+                                            <li class="nav-item" role="presentation">
+                                                <a class="nav-link"  href="#help">Help</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="user-area top-bar">
+                                        <ul>
+                                            <li>
+                                                <a href="#user-area">
+                                                    <img src="images/user-area.png" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                            <a href="#" id="post-button">
+                                                    <button type="button" class="btn">
+                                                        <i class="fas fa-plus-circle"></i><span>Post Your Ad</span>
+                                                    </button>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main id="main">
+            <section id="banner">    
+
+                <div class="banner-text-data">
+                    <div class="container">
+                        <div class="row justify-content-md-center">
+                            <div class="col-auto">
+                                <div class="banner-text-position">
+                                    <div class="banner-heading">
+                                        <h1>
+                                            GET YOUR TO-DO LIST DONE
+                                        </h1>
+                                    </div>
+                                <div class="trusted-people-text">
+                                    <h2>
+                                        Thousands of trusted people across Spain happy to help
+                                    </h2>
+                                </div>
+                                <div class="searching-input">
+                                    <form action="#">
+                                        <div class=" form-group row align-items-center">
+                                            <div class="col-6">
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control border-0" placeholder="Cercas Bajas 83  Montmeló" aria-label="Text input with segmented dropdown button">
+                                                    <button type="button" class="btn" id="location-border-color"><img src="images/location.png" alt=""></button>
+                                                    <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                                                        2 km
+                                                    </button>
+                                                    <ul class="dropdown-menu dropdown-menu-end">
+                                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                                        <li><hr class="dropdown-divider"></li>
+                                                        <li><a class="dropdown-item" href="#">Separated link</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control" placeholder="What are you looking ?" aria-label="Text input with segmented dropdown button">
+                                                    <button type="button" class="btn rounded-end">+ Filters</button>
+                                                    <span> <button type="button" class="btn rounded-end" id="search-button"><i class="fas fa-search "></i></button></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <section class="tabs-data">
+                <div class="categories-text">
+                    <h3>
+                        Popular Categories
+                    </h3>
+                </div>
+                <div class="categories-details">
+                    <h4>
+                        Browse some popular categories picked by us
+                    </h4>
+                </div>
+                <div class="tab-box">
+                    <div class="container">
+                        <div class="row justify-content-md-center">
+                            <div class="col-md-2 col-sm-6 border">
+                                <div class="tabs-list">
+                                    <div>
+                                        <a href="#entertainment">
+                                            <img src="images/dancing.png" alt="dancing">
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="#entertainment">
+                                            <h5>
+                                                Entertainment
+                                            </h5>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-6 border-top">
+                                <div class="tabs-list">
+                                    <div class="active">
+                                        <a href="#realestae">
+                                            <img src="images/estate.png" alt="real estate">
+                                        </a>
+                                    </div>
+                                    <div class="active-text">
+                                        <a href="#realestate">
+                                            <h5>
+                                                Real Estate
+                                            </h5>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-6 border">
+                                <div class="tabs-list">
+                                    <div>
+                                        <a href="#soda">
+                                            <img src="images/soda1.png" alt="soda">
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="#soda">
+                                            <h5>
+                                                Food and Drinks
+                                            </h5>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-6 border-top">
+                                <div class="tabs-list">
+                                    <div>
+                                        <a href="#car">
+                                            <img src="images/car2.png" alt="car">
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="#car">
+                                            <h5>
+                                                Vehicles
+                                            </h5>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 border">
+                                <div class="tabs-list">
+                                    <div>
+                                        <a href="#park2">
+                                            <img src="images/park2.png" alt="park">
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="#park">
+                                            <h5>
+                                                Park & Gardens
+                                            </h5>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row justify-content-md-center">
+                            <div class="col-md-2 col-sm-6 border border-top-0">
+                                <div class="tabs-list">
+                                    <div>
+                                        <a href="#land">
+                                            <img src="images/land.png" alt="land">
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="#land">
+                                            <h5>
+                                                Land & Plots
+                                            </h5>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-6 border-bottom border-top">
+                                <div class="tabs-list">
+                                    <div>
+                                        <a href="#education">
+                                            <img src="images/education.png" alt="education">
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="#education">
+                                            <h5>
+                                                Educations
+                                            </h5>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-6 border border-top-0">
+                                <div class="tabs-list">
+                                    <div>
+                                        <a href="#Mobile">
+                                            <img src="images/mobile.png" alt="mobile">
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="#mobile">
+                                            <h5>
+                                                Mobile Phones
+                                            </h5>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-6 border-0 border-bottom border-top">
+                                <div class="tabs-list">
+                                    <div>
+                                        <a href="#fashion">
+                                            <img src="images/fashion.png" alt="fashion">
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="#fashion">
+                                            <h5>
+                                                Fashion & Beauty
+                                            </h5>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 border border-top-0">
+                                <div class="tabs-list">
+                                    <div>
+                                        <a href="#pet">
+                                            <img src="images/pet.png" alt="dancing">
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="#pet">
+                                            <h5>
+                                                Pets & Care
+                                            </h5>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="load-button">
+                    <button type="button" class="btn">View All Categories</button>
+                </div>
+            </section>
+            <section id="promotion-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="promotion-text">
+                                <h3>
+                                    Promotion
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="card border-0">
+                                <img class="card-img-top img-fluid" src="images/card1.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title">LORAM IPSUM</h4>
+                                    <div class="card-text">
+                                        <span>Clifton, Córdoba </span>
+                                        <span>2 days ago</span>
+                                    </div>
+                                    <div class="price">
+                                        <h5>ESP. 407.00</h5>
+                                    </div>
+                                    <div class="card-list">
+                                        <ul>
+                                            <li>
+                                                <span class="fa fa-star checked"></span>
+                                            </li>
+                                            <li>
+                                                <span class="fa fa-star checked"></span>
+                                            </li>
+                                            <li>
+                                                <span class="fa fa-star checked"></span>
+                                            </li>
+                                            <li>
+                                                <span class="fa fa-star checked"></span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-star-half-alt checked"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="description card-text">
+                                        <dl>
+                                            <dt>
+                                                <dd>
+                                                    6606 Diane Pl, Catalonia, CA 93505 
+                                                </dd>
+                                            </dt>
+                                        </dl>
+                                    </div>
+                                    <div class="types-list">
+                                        <ul>
+                                            <li>
+                                                <a href="#1bds">1 bds</a>
+                                            </li>
+                                            <li>
+                                                <a href="#1ba"><img src="images/dot.png" alt="dot"> 1 ba</a>
+                                            </li>
+                                            <li>
+                                                <a href="#1sqf"><img src="images/dot.png" alt="dot"> 300 sq ft</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="card-tabs">
+                                    <ul class="border-top">
+                                        <li>
+                                            <a href="#details"> Details</a>
+                                        </li>
+                                        <li class="border border-bottom-0">
+                                            <a href="#comment"><i class="fas fa-comments"></i></a>
+                                        </li>
+                                        <li class="border border-bottom-0">
+                                            <a href="#share"><i class="fas fa-share-alt"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#like"><i class="far fa-heart"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="card border-0">
+                                <img class="card-img-top" src="images/card2.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title">HOURLY BASED</h4>
+                                    <div class="card-text">
+                                        <span>Clifton, Córdoba </span>
+                                        <span>1 week ago</span>
+                                    </div>
+                                    <div class="price">
+                                        <h5>ESP. 999.00</h5>
+                                    </div>
+                                    <div class="card-list">
+                                        <ul>
+                                            <li>
+                                                <span class="fa fa-star checked"></span>
+                                            </li>
+                                            <li>
+                                                <span class="fa fa-star checked"></span>
+                                            </li>
+                                            <li>
+                                                <span class="fa fa-star checked"></span>
+                                            </li>
+                                            <li>
+                                                <span class="fa fa-star checked"></span>
+                                            </li>
+                                            <li>
+                                                <span class="fa fa-star checked"></span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="description card-text">
+                                        <dl>
+                                            <dt>
+                                                <dd>
+                                                    6606 Diane Pl, Catalonia, CA 93505 
+                                                </dd>
+                                            </dt>
+                                        </dl>
+                                    </div>
+                                    <div class="types-list">
+                                        <ul>
+                                            <li>
+                                                <a href="#1bds">24 dw</a>
+                                            </li>
+                                            <li>
+                                                <a href="#1ba"><img src="images/dot.png" alt="dot"> 2 vfs</a>
+                                            </li>
+                                            <li>
+                                                <a href="#1sqf"><img src="images/dot.png" alt="dot"> 500 sq ft</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="card-tabs">
+                                    <ul class="border-top">
+                                        <li>
+                                            <a href="#details"> Details</a>
+                                        </li>
+                                        <li class="border border-bottom-0">
+                                            <a href="#comment"><i class="fas fa-comments"></i></a>
+                                        </li>
+                                        <li class="border border-bottom-0">
+                                            <a href="#share"><i class="fas fa-share-alt"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#like"><i class="far fa-heart"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="card border-0">
+                                <img class="card-img-top" src="images/card3.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title">RANDOM PRODUCT</h4>
+                                    <div class="card-text">
+                                        <span>Clifton, Córdoba </span>
+                                        <span>5 hours ago</span>
+                                    </div>
+                                    <div class="price">
+                                        <h5>ESP. 1200.00</h5>
+                                    </div>
+                                    <div class="card-list">
+                                        <ul>
+                                            <li>
+                                                <span class="fa fa-star checked"></span>
+                                            </li>
+                                            <li>
+                                                <span class="fa fa-star checked"></span>
+                                            </li>
+                                            <li>
+                                                <span class="fa fa-star checked"></span>
+                                            </li>
+                                            <li>
+                                                <span class="fa fa-star checked"></span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-star-half-alt checked"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="description card-text">
+                                        <dl>
+                                            <dt>
+                                                <dd>
+                                                    6606 Diane Pl, Catalonia, CA 93505 
+                                                </dd>
+                                            </dt>
+                                        </dl>
+                                    </div>
+                                    <div class="types-list">
+                                        <ul>
+                                            <li>
+                                                <a href="#1bds">24 dw</a>
+                                            </li>
+                                            <li>
+                                                <a href="#1ba"><img src="images/dot.png" alt="dot"> 2 vfs</a>
+                                            </li>
+                                            <li>
+                                                <a href="#1sqf"><img src="images/dot.png" alt="dot"> 500 sq ft</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="card-tabs">
+                                    <ul class="border-top">
+                                        <li>
+                                            <a href="#details"> Details</a>
+                                        </li>
+                                        <li class="border border-bottom-0">
+                                            <a href="#comment"><i class="fas fa-comments"></i></a>
+                                        </li>
+                                        <li class="border border-bottom-0">
+                                            <a href="#share"><i class="fas fa-share-alt"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#like"><i class="far fa-heart"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="card border-0">
+                                <img class="card-img-top" src="images/card4.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title">HOURLY BASED</h4>
+                                    <div class="card-text">
+                                        <span>Clifton, Córdoba </span>
+                                        <span>5 hours ago</span>
+                                    </div>
+                                    <div class="price">
+                                        <h5>ESP. 400.00</h5>
+                                    </div>
+                                    <div class="card-list">
+                                        <ul>
+                                            <li>
+                                                <span class="fa fa-star checked"></span>
+                                            </li>
+                                            <li>
+                                                <span class="fa fa-star checked"></span>
+                                            </li>
+                                            <li>
+                                                <span class="fa fa-star checked"></span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-star-half-alt checked"></i>
+                                            </li>
+                                            <li>
+                                                <i class="far fa-star checked"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="description card-text">
+                                        <dl>
+                                            <dt>
+                                                <dd>
+                                                    6606 Diane Pl, Catalonia, CA 93505 
+                                                </dd>
+                                            </dt>
+                                        </dl>
+                                    </div>
+                                    <div class="types-list">
+                                        <ul>
+                                            <li>
+                                                <a href="#1bds">24 dw</a>
+                                            </li>
+                                            <li>
+                                                <a href="#1ba"><img src="images/dot.png" alt="dot"> 2 vfs</a>
+                                            </li>
+                                            <li>
+                                                <a href="#1sqf"><img src="images/dot.png" alt="dot"> 500 sq ft</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="card-tabs">
+                                    <ul class="border-top">
+                                        <li>
+                                            <a href="#details"> Details</a>
+                                        </li>
+                                        <li class="border border-bottom-0">
+                                            <a href="#comment"><i class="fas fa-comments"></i></a>
+                                        </li>
+                                        <li class="border border-bottom-0">
+                                            <a href="#share"><i class="fas fa-share-alt"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#like"><i class="far fa-heart"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="puzzels">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-6" id="puzzel-section-container">
+                            <div class="puzzels-image">
+                                <img src="images/first-border.png" class="img-fluid" alt="first-border">
+
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div>
+                                <img src="images/puzzel2.png" class="img-fluid" alt="ads image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="last-ad-publish">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="promotion-text">
+                                <h3>
+                                    Last Ads Published
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="card border-0">
+                                <img class="card-img-top img-fluid" src="images/card1.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title">LORAM IPSUM</h4>
+                                    <div class="card-text">
+                                        <span>Clifton, Córdoba </span>
+                                        <span>2 days ago</span>
+                                    </div>
+                                    <div class="price">
+                                        <h5>ESP. 407.00</h5>
+                                    </div>
+                                    <div class="card-list">
+                                        <ul>
+                                            <li>
+                                                <span class="fa fa-star checked"></span>
+                                            </li>
+                                            <li>
+                                                <span class="fa fa-star checked"></span>
+                                            </li>
+                                            <li>
+                                                <span class="fa fa-star checked"></span>
+                                            </li>
+                                            <li>
+                                                <span class="fa fa-star checked"></span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-star-half-alt checked"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="description card-text">
+                                        <dl>
+                                            <dt>
+                                                <dd>
+                                                    6606 Diane Pl, Catalonia, CA 93505 
+                                                </dd>
+                                            </dt>
+                                        </dl>
+                                    </div>
+                                    <div class="types-list">
+                                        <ul>
+                                            <li>
+                                                <a href="#1bds">1 bds</a>
+                                            </li>
+                                            <li>
+                                                <a href="#1ba"><img src="images/dot.png" alt="dot"> 1 ba</a>
+                                            </li>
+                                            <li>
+                                                <a href="#1sqf"><img src="images/dot.png" alt="dot"> 300 sq ft</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="card-tabs">
+                                    <ul class="border-top">
+                                        <li>
+                                            <a href="#details"> Details</a>
+                                        </li>
+                                        <li class="border border-bottom-0">
+                                            <a href="#comment"><i class="fas fa-comments"></i></a>
+                                        </li>
+                                        <li class="border border-bottom-0">
+                                            <a href="#share"><i class="fas fa-share-alt"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#like"><i class="far fa-heart"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="card border-0">
+                                <img class="card-img-top" src="images/card2.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title">HOURLY BASED</h4>
+                                    <div class="card-text">
+                                        <span>Clifton, Córdoba </span>
+                                        <span>1 week ago</span>
+                                    </div>
+                                    <div class="price">
+                                        <h5>ESP. 999.00</h5>
+                                    </div>
+                                    <div class="card-list">
+                                        <ul>
+                                            <li>
+                                                <span class="fa fa-star checked"></span>
+                                            </li>
+                                            <li>
+                                                <span class="fa fa-star checked"></span>
+                                            </li>
+                                            <li>
+                                                <span class="fa fa-star checked"></span>
+                                            </li>
+                                            <li>
+                                                <span class="fa fa-star checked"></span>
+                                            </li>
+                                            <li>
+                                                <span class="fa fa-star checked"></span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="description card-text">
+                                        <dl>
+                                            <dt>
+                                                <dd>
+                                                    6606 Diane Pl, Catalonia, CA 93505 
+                                                </dd>
+                                            </dt>
+                                        </dl>
+                                    </div>
+                                    <div class="types-list">
+                                        <ul>
+                                            <li>
+                                                <a href="#1bds">24 dw</a>
+                                            </li>
+                                            <li>
+                                                <a href="#1ba"><img src="images/dot.png" alt="dot"> 2 vfs</a>
+                                            </li>
+                                            <li>
+                                                <a href="#1sqf"><img src="images/dot.png" alt="dot"> 500 sq ft</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="card-tabs">
+                                    <ul class="border-top">
+                                        <li>
+                                            <a href="#details"> Details</a>
+                                        </li>
+                                        <li class="border border-bottom-0">
+                                            <a href="#comment"><i class="fas fa-comments"></i></a>
+                                        </li>
+                                        <li class="border border-bottom-0">
+                                            <a href="#share"><i class="fas fa-share-alt"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#like"><i class="far fa-heart"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="card border-0">
+                                <img class="card-img-top" src="images/card3.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title">RANDOM PRODUCT</h4>
+                                    <div class="card-text">
+                                        <span>Clifton, Córdoba </span>
+                                        <span>5 hours ago</span>
+                                    </div>
+                                    <div class="price">
+                                        <h5>ESP. 1200.00</h5>
+                                    </div>
+                                    <div class="card-list">
+                                        <ul>
+                                            <li>
+                                                <span class="fa fa-star checked"></span>
+                                            </li>
+                                            <li>
+                                                <span class="fa fa-star checked"></span>
+                                            </li>
+                                            <li>
+                                                <span class="fa fa-star checked"></span>
+                                            </li>
+                                            <li>
+                                                <span class="fa fa-star checked"></span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-star-half-alt checked"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="description card-text">
+                                        <dl>
+                                            <dt>
+                                                <dd>
+                                                    6606 Diane Pl, Catalonia, CA 93505 
+                                                </dd>
+                                            </dt>
+                                        </dl>
+                                    </div>
+                                    <div class="types-list">
+                                        <ul>
+                                            <li>
+                                                <a href="#1bds">24 dw</a>
+                                            </li>
+                                            <li>
+                                                <a href="#1ba"><img src="images/dot.png" alt="dot"> 2 vfs</a>
+                                            </li>
+                                            <li>
+                                                <a href="#1sqf"><img src="images/dot.png" alt="dot"> 500 sq ft</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="card-tabs">
+                                    <ul class="border-top">
+                                        <li>
+                                            <a href="#details"> Details</a>
+                                        </li>
+                                        <li class="border border-bottom-0">
+                                            <a href="#comment"><i class="fas fa-comments"></i></a>
+                                        </li>
+                                        <li class="border border-bottom-0">
+                                            <a href="#share"><i class="fas fa-share-alt"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#like"><i class="far fa-heart"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="card border-0">
+                                <img class="card-img-top" src="images/card4.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title">HOURLY BASED</h4>
+                                    <div class="card-text">
+                                        <span>Clifton, Córdoba </span>
+                                        <span>5 hours ago</span>
+                                    </div>
+                                    <div class="price">
+                                        <h5>ESP. 400.00</h5>
+                                    </div>
+                                    <div class="card-list">
+                                        <ul>
+                                            <li>
+                                                <span class="fa fa-star checked"></span>
+                                            </li>
+                                            <li>
+                                                <span class="fa fa-star checked"></span>
+                                            </li>
+                                            <li>
+                                                <span class="fa fa-star checked"></span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-star-half-alt checked"></i>
+                                            </li>
+                                            <li>
+                                                <i class="far fa-star checked"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="description card-text">
+                                        <dl>
+                                            <dt>
+                                                <dd>
+                                                    6606 Diane Pl, Catalonia, CA 93505 
+                                                </dd>
+                                            </dt>
+                                        </dl>
+                                    </div>
+                                    <div class="types-list">
+                                        <ul>
+                                            <li>
+                                                <a href="#1bds">24 dw</a>
+                                            </li>
+                                            <li>
+                                                <a href="#1ba"><img src="images/dot.png" alt="dot"> 2 vfs</a>
+                                            </li>
+                                            <li>
+                                                <a href="#1sqf"><img src="images/dot.png" alt="dot"> 500 sq ft</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="card-tabs">
+                                    <ul class="border-top">
+                                        <li>
+                                            <a href="#details"> Details</a>
+                                        </li>
+                                        <li class="border border-bottom-0">
+                                            <a href="#comment"><i class="fas fa-comments"></i></a>
+                                        </li>
+                                        <li class="border border-bottom-0">
+                                            <a href="#share"><i class="fas fa-share-alt"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#like"><i class="far fa-heart"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="second-row-ads">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="card border-0">
+                                    <img class="card-img-top img-fluid" src="images/card5.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h4 class="card-title">HOURLY BASED</h4>
+                                        <div class="card-text">
+                                            <span>Clifton, Córdoba </span>
+                                            <span>9 hours ago</span>
+                                        </div>
+                                        <div class="price">
+                                            <h5>ESP. 650.00</h5>
+                                        </div>
+                                        <div class="card-list">
+                                            <ul>
+                                                <li>
+                                                    <span class="fa fa-star checked"></span>
+                                                </li>
+                                                <li>
+                                                    <span class="fa fa-star checked"></span>
+                                                </li>
+                                                <li>
+                                                    <span class="fa fa-star checked"></span>
+                                                </li>
+                                                <li>
+                                                    <span class="fa fa-star checked"></span>
+                                                </li>
+                                                <li>
+                                                    <i class="fas fa-star-half-alt checked"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="description card-text">
+                                            <dl>
+                                                <dt>
+                                                    <dd>
+                                                        6606 Diane Pl, Catalonia, CA 93505 
+                                                    </dd>
+                                                </dt>
+                                            </dl>
+                                        </div>
+                                        <div class="types-list">
+                                            <ul>
+                                                <li>
+                                                    <a href="#1bds">24 dw</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#1ba"><img src="images/dot.png" alt="dot"> 2 vfs</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#1sqf"><img src="images/dot.png" alt="dot"> 500 sq ft</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="card-tabs">
+                                        <ul class="border-top">
+                                            <li>
+                                                <a href="#details"> Details</a>
+                                            </li>
+                                            <li class="border border-bottom-0">
+                                                <a href="#comment"><i class="fas fa-comments"></i></a>
+                                            </li>
+                                            <li class="border border-bottom-0">
+                                                <a href="#share"><i class="fas fa-share-alt"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#like"><i class="far fa-heart"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="card border-0">
+                                    <img class="card-img-top" src="images/card6.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h4 class="card-title">HOURLY BASED</h4>
+                                        <div class="card-text">
+                                            <span>Clifton, Córdoba </span>
+                                            <span>1 day ago</span>
+                                        </div>
+                                        <div class="price">
+                                            <h5>ESP. 10.00</h5>
+                                        </div>
+                                        <div class="card-list">
+                                            <ul>
+                                                <li>
+                                                    <span class="fa fa-star checked"></span>
+                                                </li>
+                                                <li>
+                                                    <span class="fa fa-star checked"></span>
+                                                </li>
+                                                <li>
+                                                    <span class="fa fa-star checked"></span>
+                                                </li>
+                                                <li>
+                                                    <span class="fa fa-star checked"></span>
+                                                </li>
+                                                <li>
+                                                    <span class="fa fa-star checked"></span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="description card-text">
+                                            <dl>
+                                                <dt>
+                                                    <dd>
+                                                        6606 Diane Pl, Catalonia, CA 93505 
+                                                    </dd>
+                                                </dt>
+                                            </dl>
+                                        </div>
+                                        <div class="types-list">
+                                            <ul>
+                                                <li>
+                                                    <a href="#1bds">1 bds</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#1ba"><img src="images/dot.png" alt="dot"> 1 ba</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#1sqf"><img src="images/dot.png" alt="dot"> 300 sq ft</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="card-tabs">
+                                        <ul class="border-top">
+                                            <li>
+                                                <a href="#details"> Details</a>
+                                            </li>
+                                            <li class="border border-bottom-0">
+                                                <a href="#comment"><i class="fas fa-comments"></i></a>
+                                            </li>
+                                            <li class="border border-bottom-0">
+                                                <a href="#share"><i class="fas fa-share-alt"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#like"><i class="far fa-heart"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="card border-0">
+                                    <img class="card-img-top" src="images/card7.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h4 class="card-title">LORAM IPSUM</h4>
+                                        <div class="card-text">
+                                            <span>Clifton, Córdoba </span>
+                                            <span>7 hours ago</span>
+                                        </div>
+                                        <div class="price">
+                                            <h5>ESP. 4500.00</h5>
+                                        </div>
+                                        <div class="card-list">
+                                            <ul>
+                                                <li>
+                                                    <span class="fa fa-star checked"></span>
+                                                </li>
+                                                <li>
+                                                    <span class="fa fa-star checked"></span>
+                                                </li>
+                                                <li>
+                                                    <span class="fa fa-star checked"></span>
+                                                </li>
+                                                <li>
+                                                    <span class="fa fa-star checked"></span>
+                                                </li>
+                                                <li>
+                                                    <span class="fa fa-star checked"></span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="description card-text">
+                                            <dl>
+                                                <dt>
+                                                    <dd>
+                                                        6606 Diane Pl, Catalonia, CA 93505 
+                                                    </dd>
+                                                </dt>
+                                            </dl>
+                                        </div>
+                                        <div class="types-list">
+                                            <ul>
+                                                <li>
+                                                    <a href="#1bds">1 bds</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#1ba"><img src="images/dot.png" alt="dot"> 1 ba</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#1sqf"><img src="images/dot.png" alt="dot"> 300 sq ft</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="card-tabs">
+                                        <ul class="border-top">
+                                            <li>
+                                                <a href="#details"> Details</a>
+                                            </li>
+                                            <li class="border border-bottom-0">
+                                                <a href="#comment"><i class="fas fa-comments"></i></a>
+                                            </li>
+                                            <li class="border border-bottom-0">
+                                                <a href="#share"><i class="fas fa-share-alt"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#like"><i class="far fa-heart"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="card border-0">
+                                    <img class="card-img-top" src="images/card8.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h4 class="card-title">RANDOM PRODUCT</h4>
+                                        <div class="card-text">
+                                            <span>Clifton, Córdoba </span>
+                                            <span>2 hours ago</span>
+                                        </div>
+                                        <div class="price">
+                                            <h5>ESP. 700.00</h5>
+                                        </div>
+                                        <div class="card-list">
+                                            <ul>
+                                                <li>
+                                                    <span class="fa fa-star checked"></span>
+                                                </li>
+                                                <li>
+                                                    <span class="fa fa-star checked"></span>
+                                                </li>
+                                                <li>
+                                                    <span class="fa fa-star checked"></span>
+                                                </li>
+                                                <li>
+                                                    <i class="fas fa-star-half-alt checked"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="far fa-star checked"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="description card-text">
+                                            <dl>
+                                                <dt>
+                                                    <dd>
+                                                        6606 Diane Pl, Catalonia, CA 93505 
+                                                    </dd>
+                                                </dt>
+                                            </dl>
+                                        </div>
+                                        <div class="types-list">
+                                            <ul>
+                                                <li>
+                                                    <a href="#1bds">24 dw</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#1ba"><img src="images/dot.png" alt="dot"> 2 vfs</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#1sqf"><img src="images/dot.png" alt="dot"> 500 sq ft</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="card-tabs">
+                                        <ul class="border-top">
+                                            <li>
+                                                <a href="#details"> Details</a>
+                                            </li>
+                                            <li class="border border-bottom-0">
+                                                <a href="#comment"><i class="fas fa-comments"></i></a>
+                                            </li>
+                                            <li class="border border-bottom-0">
+                                                <a href="#share"><i class="fas fa-share-alt"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#like"><i class="far fa-heart"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="load-button">
+                        <button type="button" class="btn">Load More</button>
+                    </div>
+                </div>
+            </section>
+            <section id="city-section">
+                <div class="cities-details">
+                    <div class="container">
+                        <div class=row>
+                            <div class="col-12">
+                                <div class="city-text promotion-text">
+                                    <h3>
+                                        Spain Main Pages
+                                    </h3>
+                                </div>
+                                <div class="main-cities">
+                                    <h4>
+                                        Main cities of Spain
+                                    </h4>
+                                </div>
+                                <div class="main-city-list">
+                                    <ul>
+                                        <li>
+                                            <a href="#barcelona"> Barcelona</a>
+                                        </li>
+                                        <li>
+                                            <a href="#koeman"> Koeman</a>
+                                        </li>
+                                        <li>
+                                            <a href="#madrid"> Madrid</a>
+                                        </li>
+                                        <li>
+                                            <a href="#marbella"> Marbella</a>
+                                        </li>
+                                        <li>
+                                            <a href="#majocara"> Majorca</a>
+                                        </li>
+                                        <li>
+                                            <a href="#alicanta"> Alicanta</a>
+                                        </li>
+                                        <li>
+                                            <a href="#Elche"> Elche</a>
+                                        </li>
+                                        <li>
+                                            <a href="#Vigo"> Vigo</a>
+                                        </li>
+                                        <li>
+                                            <a href="#Bilbo">Bilbao</a>
+                                        </li>
+                                        <li>
+                                            <a href="#Ibiza"> Ibiza</a>
+                                        </li>
+                                        <li>
+                                            <a href="#Getafe"> Getafe</a>
+                                        </li>
+                                        <li>
+                                            <a href="#vigo"> Vigo</a>
+                                        </li>
+                                        <li>
+                                            <a href="#Ibiza">Ibiza</a>
+                                        </li>
+                                        <li>
+                                            <a href="#Getafe"> Getafe</a>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <a href="#fluanedra"> Fuenlabrada</a>
+                                        </li>
+                                        <li>
+                                            <a href="#Getafe"> Getafe</a>
+                                        </li>
+                                        <li>
+                                            <a href="#Vigo"> Vigo</a>
+                                        </li>
+                                        <li>
+                                            <a href="#marbella"> Bilbao</a>
+                                        </li>
+                                        <li>
+                                            <a href="#Ibiza"> Ibiza</a>
+                                        </li>
+                                        <li>
+                                            <a href="#Madrid"> Madrid</a>
+                                        </li>
+                                        <li>
+                                            <a href="#Majorca"> Majorca</a>
+                                        </li>
+                                        <li>
+                                            <a href="#Vigo"> Vigo</a>
+                                        </li>
+                                        <li>
+                                            <a href="#Bilbo">Bilbao</a>
+                                        </li>
+                                        <li>
+                                            <a href="#Ibiza"> Ibiza</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="main-cities">
+                                    <h4>
+                                        The most searched in Spain
+                                    </h4>
+                                </div>
+                                <div class="most-searched main-city-list">
+                                    <ul>
+                                        <li>
+                                            <a href="#Delux"> Delux</a>
+                                        </li>
+                                        <li>
+                                            <a href="#eroticmessage"> Erotic Message</a>
+                                        </li>
+                                        <li>
+                                            <a href="#oven "> Oven for Sale</a>
+                                        </li>
+                                        <li>
+                                            <a href="#room"> Room</a>
+                                        </li>
+                                        <li>
+                                            <a href="#Kid"> KidBike</a>
+                                        </li>
+                                        <li>
+                                            <a href="#usercar"> User Car</a>
+                                        </li>
+                                        <li>
+                                            <a href="#Solarsheet"> Solar Sheeet</a>
+                                        </li>
+                                        <li>
+                                            <a href="#erotic"> Erotic Message</a>
+                                        </li>
+                                        <li>
+                                            <a href="#oven">Oven For Sale</a>
+                                        </li>
+                                        <li>
+                                            <a href="#Kidbike"> Kid Bike</a>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <a href="#usercar"> User Car</a>
+                                        </li>
+                                        <li>
+                                            <a href="#solarsheet"> Solar Sheet</a>
+                                        </li>
+                                        <li>
+                                            <a href="#Kid Bike"> Used Car</a>
+                                        </li>
+                                        <li>
+                                            <a href="#solar"> Solar Sheet</a>
+                                        </li>
+                                        <li>
+                                            <a href="#message"> Erotic Message</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer-color">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="logo-image">
+                                <strong>
+                                    <a href="#index.php">
+                                        <img src="images/logo.png" alt="logo">
+                                    </a>
+                                </strong>
+                            </div>
+                            <div class="logo-description">
+                                <p>
+                                Etiam cursus placerat lacinia. Nam frvwri ngila erat nibh, ac pharetra nisi temsvpor quis. Nulla facilisi. 
+                                </p>
+                            </div>
+                            <div class="readmore logo-description">
+                                 <a href="#readmore"><h6> Read More <i class="fas fa-chevron-circle-right"></i></h6></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="footer-heading">
+                                <h4>
+                                    Useful Links
+                                </h4>
+                            </div>
+                            <div class="policies">
+                                <ul>
+                                    <li>
+                                        <a href="#Cookies">Cookies Policy</a>
+                                    </li>
+                                    <li>
+                                        <a href="#privacy">Privacy Policies</a>
+                                    </li>
+                                    <li>
+                                        <a href="#terms"> Terms and Conditions</a>
+                                    </li>
+                                    <li>
+                                        <a href="advertisment">Advertising</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="footer-heading">
+                                <h4>
+                                    Quick Access
+                                </h4>
+                            </div>
+                            <div class="policies">
+                                <ul>
+                                    <li>
+                                        <a href="#index.php">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="#browser">Brow Tasks</a>
+                                    </li>
+                                    <li>
+                                        <a href="#works">How its Works</a>
+                                    </li>
+                                    <li>
+                                        <a href="help">Help</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="footer-heading">
+                                <h4>
+                                    Customer Services Sechedule
+                                </h4>
+                            </div>
+                            <div class="timetable">
+                                <span>
+                                    Hours: Open - Close 8PM <i class="fas fa-angle-down"></i>
+                                </span>
+                            </div>
+                            <div class="contactNumbers">
+                                <dl>
+                                    <dt>
+                                        <dd>
+                                            <i class="fas fa-phone-alt checked1"></i>  +34 331 44 21 211
+                                        </dd>
+                                    </dt>
+                                    <dt>
+                                        <dd>
+                                            <i class="fas fa-envelope checked1"></i>   Contact Us
+                                        </dd>
+                                    </dt>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <span class="reserve">
+                                Copyright 2020 sitename. All Rights Reserved
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/jquerry.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
